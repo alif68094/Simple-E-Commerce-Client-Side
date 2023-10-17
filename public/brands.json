@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "logo": "https://i.ibb.co/pPFKGbZ/600px-Apple-logo.png",
+      "brand_name": "Apple"
+    },
+    {
+      "id": 2,
+      "logo": "https://i.ibb.co/d0LSMhK/Samsung-Logo-svg.png",
+      "brand_name": "Samsung"
+    },
+    {
+      "id": 3,
+      "logo": "https://i.ibb.co/TMd3QCs/xiaomi-logo-logos-marcas-8.png",
+      "brand_name": "Xiaomi"
+    },
+    {
+      "id": 4,
+      "logo": "https://i.ibb.co/Mpp7tMN/realme.png",
+      "brand_name": "Realme"
+    },
+    {
+      "id": 5,
+      "logo": "https://i.ibb.co/TcC6pC7/One-Plus-Logo.png",
+      "brand_name": "One Plus"
+    },
+    {
+      "id": 6,
+      "logo": "https://i.ibb.co/LJyVbpf/Huawei-Logo-wine.png",
+      "brand_name": "Huawei"
+    }
+  ]
+  
