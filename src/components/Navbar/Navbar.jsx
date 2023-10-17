@@ -63,6 +63,18 @@ const Navbar = () => {
 
 
           </li>
+          <li className="text-lg hidden md:contents">
+            <NavLink
+              to="/blog"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-gray-600 font-bold" : ""
+              }
+            >
+              Blogs
+            </NavLink>
+
+
+          </li>
           
         </ul>
 
