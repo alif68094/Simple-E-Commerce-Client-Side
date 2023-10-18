@@ -18,7 +18,7 @@ const ItemCard = ({ item }) => {
                     <p>Price: {price}</p>
                 </div>
                 <div className="card-actions mt-4">
-                    <Link><button className="px-3 py-1 bg-[#129cb8] rounded text-white">Details</button></Link>
+                    <Link to={`/details/${_id}`}><button className="px-3 py-1 bg-[#129cb8] rounded text-white">Details</button></Link>
                     <Link to={`/updateProduct/${_id}`}><button className="px-3 py-1 bg-[#129cb8] rounded text-white">Update</button></Link>
                 </div>
             </div>
