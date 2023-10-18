@@ -61,9 +61,11 @@ const Register = () => {
 
     return (
         <div>
-            <div className="hero min-h-screen  bg-base-200">
+            <div className="hero min-h-screen">
 
-                <div className="  rounded-lg pb-8 flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                
+
+                <div className="rounded-lg pb-8 flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <form className="card-body" onSubmit={handleRegister}>
                         <div className="form-control">
                             <label className="label">
@@ -81,7 +83,7 @@ const Register = () => {
                             </label>
                         </div>
                         <div className="mx-auto mt-6">
-                            <button className="hover:bg-black hover:text-white rounded px-16 font-medium border py-2 ">Register</button>
+                            <button className="hover:bg-[#129cb8] hover:text-white rounded px-16 font-medium border py-2 ">Register</button>
                         </div>
                     </form>
                     {
@@ -90,7 +92,7 @@ const Register = () => {
                     {
                         success && <p className="text-green-600 text-center">{success}</p>
                     }
-                    <p className="text-center">Already Have an account? Please <Link to="/login" className="text-blue-600">Login</Link></p>
+                    <p className="text-center">Already Have an account? Please <Link to="/login" className="text-[#129cb8]">Login</Link></p>
 
                 </div>
 

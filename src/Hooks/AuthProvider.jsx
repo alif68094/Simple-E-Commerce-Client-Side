@@ -52,4 +52,4 @@ const logOut = () => {
     );
 };
 
-export default AuthProvider;
+export default AuthProvider; 

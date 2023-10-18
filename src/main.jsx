@@ -12,6 +12,8 @@ import ErrorPage from './components/ErrorPage/ErrorPage';
 import Register from './pages/Register/Register';
 import Login from './pages/LogIn/LogIn';
 import AuthProvider from './Hooks/AuthProvider';
+import AddProduct from './pages/AddProduct/AddProduct';
+import MyCart from './pages/MyCart/MyCart';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +32,14 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login></Login>
+      },
+      {
+        path: "/addProduct",
+        element: <AddProduct></AddProduct>,
+      },
+      {
+        path: "/myCart",
+        element: <MyCart></MyCart>
       }
 
     ]

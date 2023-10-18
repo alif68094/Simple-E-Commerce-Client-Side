@@ -37,7 +37,7 @@ const Navbar = () => {
             </li>
             <li className="text-sm md:text-lg">
               <NavLink
-                to="/galleries"
+                to="/addProduct"
                 className={({ isActive, isPending }) =>
                   isPending ? "pending" : isActive ? "text-gray-600 font-bold" : ""
                 }
@@ -49,12 +49,12 @@ const Navbar = () => {
             </li>
             <li className="text-sm md:text-lg">
               <NavLink
-                to="/career"
+                to="/myCart"
                 className={({ isActive, isPending }) =>
                   isPending ? "pending" : isActive ? "text-gray-600 font-bold" : ""
                 }
               >
-                My Card
+                My Cart
               </NavLink>
 
 
@@ -104,8 +104,8 @@ const Navbar = () => {
         <div className="">
 
           {
-            user ? <Link><button onClick={handleLogOut} className="px-3 py-2 bg-[#129c8b] rounded text-white">Log Out</button></Link> :
-              <Link to="/register"><button onClick={handleLogOut} className="px-3 py-2 bg-[#139c8b] rounded text-white">Sign Up</button></Link>
+            user ? <Link><button onClick={handleLogOut} className="px-3 py-2 bg-[#129cb8] rounded text-white">Log Out</button></Link> :
+              <Link to="/register"><button onClick={handleLogOut} className="px-3 py-2 bg-[#129cb8] rounded text-white">Sign Up</button></Link>
           }
 
 
