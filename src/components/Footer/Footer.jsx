@@ -14,7 +14,7 @@ const Footer = () => {
 
                 </div>
                 <div className="lg:flex gap-3">
-                <input type="text" placeholder="Type here" className="input input-bordered input-info w-full max-w-xs" />
+                <input type="text" placeholder="Your Email" className="input input-bordered input-info w-full max-w-xs" />
                 <button className="mt-3 lg:mt-0 px-5 py-2 bg-[#129cb8] rounded text-lg text-white">Subscribe</button>
                 </div>
             </div>
