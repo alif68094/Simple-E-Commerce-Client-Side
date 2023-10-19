@@ -9,7 +9,9 @@ const AuthProvider = ({children}) => {
 
 
     const [user, setUser] = useState(null);
-    const [loading, setLoading] = useState(true)
+    const [loading, setLoading] = useState(true);
+
+   
 
     const googleSignIn = (value) => {
         setLoading(true)
